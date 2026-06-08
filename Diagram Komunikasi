@@ -1,0 +1,16 @@
+[ Teknisi Digikar ] 
+        │
+        │ 1. Klik "Selesai Service"
+        ▼
+  [ API Gateway ]
+        │
+        ▼ 2. Teruskan Request
+[ Service Antrean ] ───( Update Status HP ke DB )
+        │
+        │ 3. Langsung Tembak HTTP POST ke Service Notif (Sinkron)
+        ▼
+[ Service Notifikasi ]
+        │
+        │ 4. Kirim WA / SMS ke Konsumen
+        ▼
+  [ HP Konsumen ]
